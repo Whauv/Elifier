@@ -1,3 +1,12 @@
+# Mates:-
+1) Pranav chopdekar 
+
+2) Komal Chitnis
+
+3) Priyanshu Agarkar
+
+4) Sahil Gujar
+
 # Elifier
 
 In the contemporary landscape of global social media, an unsettling trend has 
@@ -18,13 +27,4 @@ extent. The goal is to soften the tone and nature of the messages circulating on
 platforms, contributing to a more constructive and positive online environment. As 
 social media continues to play a pivotal role in global communication, initiatives 
 like these become crucial in maintaining a safer and more responsible digital space.
-
-# Mates:-
-1) Pranav chopdekar 
-
-2) Komal Chitnis
-
-3) Priyanshu Agarkar
-
-4) Sahil Gujar
   
