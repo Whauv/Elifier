@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elifier System</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+
+<body>
+    <header>
+        <div class="text">
+            <h1>ELIFIER</h1>
+        </div>
+    </header>
+    <!-- <section> 
+      <div class="container">
+        <form action="/paraphrase" method="post" >
+          <h2>TEXT CLASSIFIER</h2>
+          <br>
+          <p>Enter the Input Text</p>
+          <input type="text" id="textInput" name="text" placeholder="Enter your text here">
+          <br>
+          <button type="submit" value="predict">Submit</button> 
+        </form>
+        <br>
+        <br>
+        <div id="output">
+                    {% if text %}
+                    <p style="font-size: xx-large; color: #000;"><strong>Entered text:</strong> {{ text }}</p>
+                    <p style="font-size: xx-large; color: #000;"><strong>Predicted category:</strong> {{ predicted_category }}</p>
+                    {% endif %}
+                  </div>
+      </div>
+    </section> -->
+    
+    <section>
+      <div class="box">
+            <form action="/predict" method="post"> 
+              <h2> TEXT MODERATOR </h2>
+              <br>
+              <p>Enter the Input Text</p>
+              <input type="text" id="textInput1" name="text" placeholder="Enter your text here">
+              <br>
+              <button type="submit">Submit</button>
+            </form>
+            <br>
+            <br>
+            <div id="output">
+              {% if text %}
+              <p style="font-size: xx-large; color: #000;"><strong>Entered text:</strong> {{ text }}</p>
+              <p style="font-size: xx-large; color: #000;"><strong>Paraphrased text:</strong> {{ paraphrased_text }}</p>
+              <p style="font-size: xx-large; color: #000;"><strong>Predicted category:</strong> {{ predicted_category }}</p>
+              {% endif %}
+            </div>
+            
+          </div>
+    </section>
+          
+
+</body>
+
+</html>
